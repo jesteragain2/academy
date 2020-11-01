@@ -13,7 +13,7 @@ public class Inform {
 		System.out.println("Введите сумму чека.");
 		this.check=input.nextDouble();
 		System.out.println("Введите возраст покупателя.");
-		this.old=input.nextInt();
+		this.old=input.nextInt();input.close();
 	}
 	
 	public void finaleCheck() {		

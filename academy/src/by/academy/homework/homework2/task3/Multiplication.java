@@ -10,7 +10,7 @@ public class Multiplication {
 		Scanner input=new Scanner(System.in);
 		
 		System.out.println("Введите число от 1 до 10");
-		this.num=input.nextInt();
+		this.num=input.nextInt();input.close();
 		if (num<1||num>10) {
 			System.out.println("Введены неверные данные.");
 		}else {
